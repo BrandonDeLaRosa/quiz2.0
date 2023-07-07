@@ -1,0 +1,359 @@
+// import { useState } from "react";
+
+const GameBoard = () => {
+//   const [isFlipped, setIsFlipped] = useState(false);
+
+
+//   const handleClick = () => {
+//     setIsFlipped(!isFlipped);
+//   };
+
+  return (
+    <div className="gameBoardContainer">
+        <div className="gameBoardOptions">
+          <section className="columns">
+            <div className="column">
+               <div className="columnName">Analisis de particulas</div>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">20</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">40</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">60</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">80</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">100</button> 
+               </div>
+           </section>
+           <section className="columns">
+            <div className="column">
+               <div className="columnName">Biotecnologia</div>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">20</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">40</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">60</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">80</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">100</button> 
+               </div>
+           </section>
+           <section className="columns">
+            <div className="column">
+               <div className="columnName">Biologia molecular</div>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">20</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">40</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">60</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">80</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">100</button> 
+               </div>
+           </section>
+           <section className="columns">
+            <div className="column">
+               <div className="columnName">Temperatura</div>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">20</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">40</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">60</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">80</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">100</button> 
+               </div>
+           </section>
+           <section className="columns">
+            <div className="column">
+               <div className="columnName">Especialidades</div>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">20</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">40</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">60</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">80</button>
+               <button onClick={() => alert("Hiciste click")} className="partQuestions">100</button> 
+               </div>
+           </section> 
+</div> 
+</div>
+  );
+};
+
+export default GameBoard;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ! Borad Game */
+
+
+.appContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameBoardContainer{
+  border-radius: 1rem;
+  border: 2px solid black;
+  width: 90%;
+  height: 500px;
+}
+
+.gameBoardOptions{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.columns{
+  display: flex;
+  flex-direction: column;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.columnName{
+  border: 1px solid black;
+  width: 150px;
+  height: 52px;
+  border-radius: 10px;
+}
+
+.partQuestions{
+  border: 1px solid black;
+  height: 87px;
+  border-radius: 10px;
+}
+
+
+/* ! Card Flip */
+
+.card {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.card-back {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import { useState } from "react";
+import Points20 from "../modals/cienciasSeparacion/Points20";
+
+const CienciasSeparacion = () => {
+  // Crear un estado individual para cada botón
+  const [isFlipped, setIsFlipped] = useState({
+    button1: false,
+    button2: false,
+    button3: false,
+    button4: false,
+    button5: false,
+  });
+
+  const [showModal, setShowModal] = useState(false)
+
+  const handleClick = (button) => {
+    // Cambiar el estado solo para el botón seleccionado
+    setIsFlipped((prevState) => ({
+      ...prevState,
+      [button]: !prevState[button],
+    }));
+    console.log("Carta jugada");
+  };
+
+  // const modal1 = () => {
+
+  // }
+
+  return (
+    <div>
+      {showModal? 
+     <>
+      <Points20  modal={showModal} setModal={setShowModal}/>
+      </>
+  :
+  <section className="columns">
+      <div className="column">
+        <div className="columnName">Analisis de particulas</div>
+
+        <div className={`card ${isFlipped.button1 ? "flipped" : ""}`}>
+          <div className="card-inner">
+            <div className="card-front">
+              <button
+                onClick={() => {handleClick("button1"), setShowModal(true)}}
+                className="partQuestions">
+                20
+              </button>
+            </div>
+            <div className="card-back">Carta jugada</div>
+          </div>
+        </div>
+
+        <div className={`card ${isFlipped.button2 ? "flipped" : ""}`}>
+          <div className="card-inner">
+            <div className="card-front">
+              <button
+                onClick={() => handleClick("button2")}
+                className="partQuestions"
+              >
+                40
+              </button>
+            </div>
+            <div className="card-back">Carta jugada</div>
+          </div>
+        </div>
+
+        <div className={`card ${isFlipped.button3 ? "flipped" : ""}`}>
+          <div className="card-inner">
+            <div className="card-front">
+              <button
+                onClick={() => handleClick("button3")}
+                className="partQuestions"
+              >
+                60
+              </button>
+            </div>
+            <div className="card-back">Carta jugada</div>
+          </div>
+        </div>
+
+        <div className={`card ${isFlipped.button4 ? "flipped" : ""}`}>
+          <div className="card-inner">
+            <div className="card-front">
+              <button
+                onClick={() => handleClick("button4")}
+                className="partQuestions"
+              >
+                80
+              </button>
+            </div>
+            <div className="card-back">Carta jugada</div>
+          </div>
+        </div>
+
+        <div className={`card ${isFlipped.button5 ? "flipped" : ""}`}>
+          <div className="card-inner">
+            <div className="card-front">
+              <button
+                onClick={() => handleClick("button5")}
+                className="partQuestions"
+              >
+                100
+              </button>
+            </div>
+            <div className="card-back">Carta jugada</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  } 
+    </div>
+  );
+};
+
+export default CienciasSeparacion;

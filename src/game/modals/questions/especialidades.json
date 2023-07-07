@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es el nombre de la marca de detergentes que representa Inolab? ",
+      "answer": "Franklab"
+    },
+    {
+      "id": 2,
+      "question": "¿Qué titulador le recomendarías a un cliente que requiere determinar el contenido de agua en sus muestras? ",
+      "answer": "Titulador Karl Fischer Volumétrico/Coulométrico "
+    },
+    {
+      "id": 3,
+      "question": "Menciona tres presentaciones de los detergentes que representa Inolab:",
+      "answer": "Polvo, Líquido, Toallita, Spray"
+    },
+    {
+      "id": 4,
+      "question": "",
+      "answer": ""
+    },
+    {
+      "id": 5,
+      "question": "¿Qué porcentaje de escape tienen las cabinas de bioseguridad clase II B2? ",
+      "answer": "100% de escape. "
+    }
+]    

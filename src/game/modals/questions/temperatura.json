@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué series de cámaras de clima constante cuentan con iluminación?",
+      "answer": "KBF P y KBF LQC"
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el nombre de la tecnología de precalentamiento en los equipos BINDER? ",
+      "answer": "APT.Line"
+    },
+    {
+      "id": 3,
+      "question": "¿Cómo se llama la ultima versión del Software de BINDER?",
+      "answer": "APT-COM4"
+    },
+    {
+      "id": 4,
+      "question": "¿Qué diferencia particular existe entre los equipos de convección forzada y natural? ",
+      "answer": "La convección forzada es mediante ventilador y la otra no"
+    },
+    {
+      "id": 5,
+      "question": "El cliente quiere esterilizar materiales termosensibles de manera segura y rápida, ¿cuál de los equipos que distribuye INOLAB es el que debe utilizar? ",
+      "answer": "Esterilizador de Plasma Hyper LTS-150"
+    }
+]    

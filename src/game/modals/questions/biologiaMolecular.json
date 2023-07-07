@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuántos modos de detección manejan los Lectores de Microplacas de Molecular Devices? ",
+      "answer": "3: Absorbancia, Fluorescencia y Luminiscencia"
+    },
+    {
+      "id": 2,
+      "question": "¿Cómo se llama el Software de Molecular Devices para lectores de Microplacas? ",
+      "answer": "SoftMax Pro"
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es el máximo de colores que puedes analizar los equipos Immunospot? ",
+      "answer": "12 colores"
+    },
+    {
+      "id": 4,
+      "question": "Un cliente quiere realizar ensayos ELISPOT para monitorear respuestas inmunitarias tanto en humanos como en animales, ¿Qué línea de equipos le recomendarías? ",
+      "answer": " Immunospot"
+    },
+    {
+      "id": 5,
+      "question": "¿Qué lector de microplacas le recomendarías adquirir al cliente para realizar monitoreo de endotoxinas y ELISA? ",
+      "answer": "ABS/ABS Plus "
+    }
+]    

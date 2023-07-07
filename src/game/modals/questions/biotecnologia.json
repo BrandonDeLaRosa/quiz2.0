@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué marca representada por Inolab vende sistemas para imágenes de alto contenido? ",
+      "answer": "Molecular Devices"
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el máximo de láseres que puede tener la línea CytoFLEX?",
+      "answer": "6 láseres"
+    },
+    {
+      "id": 3,
+      "question": "Soy pregunta 3",
+      "answer": "Hola soy una respuesta correcta 3"
+    },
+    {
+      "id": 4,
+      "question": "¿Qué producto debería utilizar una empresa cervecera para determinar porcentaje de células vivas?",
+      "answer": "Vi-CELL BLU/XR"
+    },
+    {
+      "id": 5,
+      "question": "¿Qué le recomendarías a un cliente que quiere determinar número de células, viabilidad celular, tamaño y forma en una muestra de sangre? ",
+      "answer": "CytoFLEX"
+    }
+]    

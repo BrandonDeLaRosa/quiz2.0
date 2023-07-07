@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "question": "Menciona 5 marcas representadas por Inolab Especialistas:  ",
+      "answer": "Beckman Coulter, Binder, Sciex, Molecular Devices, BMT"
+    },
+    {
+      "id": 2,
+      "question": "¿Cuántas “sedes” tiene Inolab Especialistas? ",
+      "answer": "Dos: Ciudad de México y Guadalajara"
+    },
+    {
+      "id": 3,
+      "question": "¿Cómo se llama el laboratorio de Inolab Especialistas?",
+      "answer": "LEBEN LAB"
+    },
+    {
+      "id": 4,
+      "question": "¿Cuántos años lleva INOLAB Especialistas en el mercado?  ",
+      "answer": "22 años"
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál es el sistema de ventas de Inolab?",
+      "answer": "¡NO! vendas" 
+    }
+]    

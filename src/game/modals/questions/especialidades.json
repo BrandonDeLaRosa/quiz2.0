@@ -6,18 +6,18 @@
     },
     {
       "id": 2,
-      "question": "¿Qué titulador le recomendarías a un cliente que requiere determinar el contenido de agua en sus muestras? ",
-      "answer": "Titulador Karl Fischer Volumétrico/Coulométrico "
+      "question": "Menciona tres presentaciones de los detergentes que representa Inolab: ",
+      "answer": "Polvo, Líquido, Toalla humeda, Spray"
     },
     {
       "id": 3,
-      "question": "Menciona tres presentaciones de los detergentes que representa Inolab:",
-      "answer": "Polvo, Líquido, Toallita, Spray"
+      "question": "Menciona 4 productos diferentes de TopAirSystems, la marca representada por Inolab: ",
+      "answer": "Cabinas de Bioseguridad, Campanas de Extracción, Cabinas de PCR, Campana de Flujo Laminar, Mobiliario"
     },
     {
       "id": 4,
-      "question": "¿Cuántos y cuáles son las clases de cabinas de Bioseguridad que distribuye Inolab? ",
-      "answer": "Dos: Clase II A2 y Clase II B2"
+      "question": "¿Cuáles son los tipos de cabinas de Bioseguridad que distribuye Inolab? ",
+      "answer": "Son dos, Clase II A2 y Clase II B2"
     },
     {
       "id": 5,

@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "question": "¿Qué marca representada por Inolab vende sistemas para imágenes de alto contenido? ",
+      "question": "¿Qué marca representada por Inolab vende sistemas para “high content screening” en células? ",
       "answer": "Molecular Devices"
     },
     {
@@ -11,17 +11,17 @@
     },
     {
       "id": 3,
-      "question": "¿Qué producto debería utilizar una empresa cervecera para determinar porcentaje de células vivas? ",
-      "answer": "Vi-CELL BLU/XR"
+      "question": "¿Qué tecnología utiliza Vi-CELL BLU para sus análisis? ",
+      "answer": "Azul de tripano"
     },
     {
       "id": 4,
-      "question": "¿Qué producto debería utilizar una empresa cervecera para determinar porcentaje de células vivas?",
-      "answer": "Vi-CELL BLU/XR"
+      "question": "¿Qué le recomendarías a un cliente que requiere separar células fisicamente por distintos dieferenciadores como tamaño, complejidad, y caracteristicas internas de la celula? ",
+      "answer": "CytoFLEX SRT"
     },
     {
       "id": 5,
-      "question": "¿Qué le recomendarías a un cliente que quiere determinar número de células, viabilidad celular, tamaño y forma en una muestra de sangre? ",
-      "answer": "CytoFLEX"
+      "question": "Un cliente requiere hacer estudios de CD45/4/8/3/56+16/19, y no cuenta con operadores experimentados en citometria, ¿Cuál sería la recomendación de equipo que usted le daría? ",
+      "answer": "Aquios Beckman Coulter."
     }
 ]    

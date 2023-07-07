@@ -2,7 +2,7 @@
     {
       "id": 1,
       "question": "¿Qué diferencia particular existe entre los equipos de convección forzada y natural? ",
-      "answer": "La convección forzada es mediante ventilador y la otra no"
+      "answer": "La convección forzada es mediante ventilador, la convección natural no tiene ventilador"
     },
     {
       "id": 2,
@@ -15,7 +15,8 @@
       "answer": "APT.Line"
     },
     {
-      "id": 4,   "question": "¿Cómo se llama la ultima versión del Software de BINDER?",
+      "id": 4,  
+      "question": "¿Cómo se llama la ultima versión del Software de BINDER?",
       "answer": "APT-COM4"
 
     },

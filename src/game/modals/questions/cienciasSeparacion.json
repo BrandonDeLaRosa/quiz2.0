@@ -1,12 +1,12 @@
 [
     {
       "id": 1,
-      "question": "¿Qué equipo Beckman utiliza la fuerza centrífuga para realizar separaciones?",
+      "question": "¿Qué equipo Beckman utiliza la fuerza centrífuga para realizar separaciones? ",
       "answer": "Centrífuga"
     },
     {
       "id": 2,
-      "question": "¿Qué tecnología de medición ocupa el equipo LS13320XR? ",
+      "question": "¿Qué equipo Beckman utiliza la fuerza centrífuga para realizar separaciones? ",
       "answer": "Difracción Laser"
     },
     {
@@ -16,12 +16,12 @@
     },
     {
       "id": 4,
-      "question": "¿Si requiero la distribución de tamaño departícula de una muestra sólida y seca, en un rango de 2,700 nm a 3,200 nm, ¿qué equipo y accesorio debo utilizar? ",
+      "question": "Si requiero la distribución de tamaño de partícula de una muestra sólida y seca, en un rango de 700 nm a 3,200 nm, ¿qué configuración de equipo debo utilizar? ",
       "answer": "LS13320XR con Módulo DPS (Tornado)"
     },
     {
       "id": 5,
-      "question": "¿Qué equipo SCIEX debo utilizar si requiero identificar y cuantificar fármacos en sangre total humana? ",
-      "answer": "QTRAP acoplado a Cromatógrafo de Líquidos"
+      "question": "¿Qué equipo SCIEX debo utilizar si requiero identificar y cuantificar nitrosaminas en fármacos? ",
+      "answer": "Triple cuadrupolo acoplado a Cromatógrafo de Líquidos"
     }
 ]    

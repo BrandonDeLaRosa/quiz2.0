@@ -1,23 +1,23 @@
 [
     {
       "id": 1,
-      "question": "¿Qué series de cámaras de clima constante cuentan con iluminación?",
-      "answer": "KBF P y KBF LQC"
+      "question": "¿Qué diferencia particular existe entre los equipos de convección forzada y natural? ",
+      "answer": "La convección forzada es mediante ventilador y la otra no"
     },
     {
       "id": 2,
+      "question": "¿Qué series de cámaras de clima constante cuentan con iluminación? ",
+      "answer":"KBF P y KBF LQC"
+    },
+    {
+      "id": 3,
       "question": "¿Cuál es el nombre de la tecnología de precalentamiento en los equipos BINDER? ",
       "answer": "APT.Line"
     },
     {
-      "id": 3,
-      "question": "¿Cómo se llama la ultima versión del Software de BINDER?",
+      "id": 4,   "question": "¿Cómo se llama la ultima versión del Software de BINDER?",
       "answer": "APT-COM4"
-    },
-    {
-      "id": 4,
-      "question": "¿Qué diferencia particular existe entre los equipos de convección forzada y natural? ",
-      "answer": "La convección forzada es mediante ventilador y la otra no"
+
     },
     {
       "id": 5,

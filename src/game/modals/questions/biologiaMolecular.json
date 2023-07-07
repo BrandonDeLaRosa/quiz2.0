@@ -1,12 +1,12 @@
 [
     {
       "id": 1,
-      "question": "¿Cuántos modos de detección manejan los Lectores de Microplacas de Molecular Devices? ",
-      "answer": "3: Absorbancia, Fluorescencia y Luminiscencia"
+      "question": "¿Hasta cuántos modos de detección manejan los Lectores de Microplacas de Molecular Devices? ",
+      "answer": " 3: Absorbancia, Fluorescencia y Luminiscencia"
     },
     {
       "id": 2,
-      "question": "¿Cómo se llama el Software de Molecular Devices para lectores de Microplacas? ",
+      "question": "¿Cómo se llama el Software de Molecular Devices para lectores de Microplacas",
       "answer": "SoftMax Pro"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "id": 5,
-      "question": "¿Qué lector de microplacas le recomendarías adquirir al cliente para realizar monitoreo de endotoxinas y ELISA? ",
-      "answer": "ABS/ABS Plus "
+      "question": "¿Qué lector de microplacas le recomendarías adquirir al cliente para realizar análisis de endotoxinas y ELISA? ",
+      "answer": "ABS"
     }
 ]    
